@@ -2,8 +2,8 @@
 {
     public class User810DTO
     {
-        public string UserName { get; set; }
-        public string UserBirthDate { get; set; }
-        public long UserCUI { get; set; }
+        public required string UserName { get; set; }
+        public required string UserBirthDate { get; set; }
+        public required long UserCUI { get; set; }
     }
 }
